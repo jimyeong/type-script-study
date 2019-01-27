@@ -54,4 +54,24 @@ var VisualStudioCode = /** @class */ (function (_super) {
 }(Editor));
 var VS = new VisualStudioCode('vsCode', true, 'all');
 VS.details();
+var Chair = /** @class */ (function () {
+    function Chair() {
+    }
+    return Chair;
+}());
+var chair = new Chair();
+var Earth = /** @class */ (function () {
+    function Earth() {
+    }
+    return Earth;
+}());
+/*shape*/
+var Pluto = /** @class */ (function () {
+    function Pluto() {
+    }
+    return Pluto;
+}());
+var planet;
+planet = new Pluto();
+/*pluto는 Planet을 구한혀지 않았지만, pluto의 인스턴스를 planet에 할당했다*/
 //# sourceMappingURL=index.js.map

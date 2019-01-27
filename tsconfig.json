@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
+    "alwaysStrict": true,
     "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
     "target": "es5",
     "sourceMap": true,
     "outDir": "./build",
